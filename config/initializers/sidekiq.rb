@@ -6,7 +6,7 @@ Sidekiq.configure_client do |config|
     chain.add Sidekiq::Status::ClientMiddleware unless Rails.env.test?
   end
   config.redis = {
-    url: Rails.application.secrets.redis['url']
+    url: Rails.application.secrets.redis['redis://redis:6379/1']
   }
 end
 
@@ -18,6 +18,6 @@ Sidekiq.configure_server do |config|
     chain.add Sidekiq::Status::ClientMiddleware unless Rails.env.test?
   end
   config.redis = {
-    url: Rails.application.secrets.redis['url']
+    url: Rails.application.secrets.redis['redis://redis:6379/1']
   }
 end
