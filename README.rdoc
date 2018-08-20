@@ -7,3 +7,19 @@
 {Species+}[https://speciesplus.net] is the new species integration platform developed at {WCMC}[http://www.unep-wcmc.org].
 
 More information in the {wiki}[https://github.com/unepwcmc/SAPI/wiki].
+
+
+Docker
+
+Clone the repo
+
+* Make a copy of .env-docker as .env and update with correct info
+* Make a copy of config/secrets.yml.docker as config/secrets.yml
+
+Run the following
+
+* docker-compose build
+* docker-compose run web rake db:create
+* docker-compose up
+
+You'll need a copy of the database for this to work.
