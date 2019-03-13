@@ -1,9 +1,9 @@
 set :stage, :production
-set :branch, "master"
+set :branch, "migration_deploy_from_master"
 
-server "sapi-production.linode.unep-wcmc.org", user: "wcmc", roles: %w{app web db}
+server "temp.sapi-production.linode.unep-wcmc.org", user: "wcmc", roles: %w{app web db}
 
-set :domain, "sapi-production.linode.unep-wcmc.org"
+set :domain, "temp.sapi-production.linode.unep-wcmc.org"
 
 set :application, "sapi"
 
