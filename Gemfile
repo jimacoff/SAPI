@@ -15,7 +15,7 @@ gem 'dalli'
 gem 'pg_array_parser'
 gem 'protected_attributes'
 gem 'nested-hstore'
-gem 'pg_search', '~> 0.5.7'
+gem 'pg_search', '~> 0.6.0'
 gem 'foreigner'
 gem 'oj' # optimised JSON (picked by multi_json)
 gem 'nokogiri', '>= 1.6.7.2'
@@ -58,7 +58,7 @@ gem 'aws-sdk', '~> 2'
 
 # Gems used only for assets and not required
 # in production environments by default.
-gem 'sass-rails',   '~> 4.0.0'
+gem 'sass-rails',   '~> 5.0.0'
 gem 'coffee-rails', '~> 4.0.0'
 #
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
