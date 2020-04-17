@@ -1,5 +1,5 @@
 set :stage, :staging
-set :branch, :ID_manual
+set :branch, :shared_folder_test
 
 server "sapi-staging.linode.unep-wcmc.org", user: "wcmc", roles: %w{app web db}
 
