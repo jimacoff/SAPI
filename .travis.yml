@@ -1,4 +1,4 @@
-dist: bionic 
+dist: xenial 
 
 language: ruby
 cache: bundler
@@ -7,13 +7,13 @@ sudo: false
 rvm:
   - 2.2.3
 addons:
-  postgresql: 9.4
+  postgresql: "10"
   code_climate:
     repo_token: dd9c26c5738d807099d3f35926ddb76902d4e2a7b899a8fe3b866152ffe8bbf1
   apt:
     packages:
-    - postgresql-9.4
-    - postgresql-client-9.4
+    - postgresql-10
+    - postgresql-client-10
 # uncomment this line if your project needs to run something other than `rake`:
 
 env:
