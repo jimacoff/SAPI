@@ -10,7 +10,7 @@ addons:
     repo_token: dd9c26c5738d807099d3f35926ddb76902d4e2a7b899a8fe3b866152ffe8bbf1
   apt:
     packages:
-    - postgresql-client-10.7
+    - postgresql-client-9
 # uncomment this line if your project needs to run something other than `rake`:
 
 env:
