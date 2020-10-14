@@ -7,6 +7,7 @@ sudo: false
 rvm:
   - 2.2.3
 addons:
+  postgresql: '9.6'
   code_climate:
     repo_token: dd9c26c5738d807099d3f35926ddb76902d4e2a7b899a8fe3b866152ffe8bbf1
   apt:
